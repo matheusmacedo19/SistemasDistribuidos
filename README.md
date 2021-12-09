@@ -1,1 +1,2 @@
 # SistemasDistribuidos
+Atividades praticas 
