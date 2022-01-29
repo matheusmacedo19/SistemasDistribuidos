@@ -25,7 +25,7 @@ public class ClientTRA extends UnicastRemoteObject implements Client, Runnable {
 
 	@Override
 	public void getMessage(String message) throws RemoteException {
-		System.out.println(message+"\n");
+		System.out.println(message + "\n");
 	}
 	
 
@@ -35,7 +35,7 @@ public class ClientTRA extends UnicastRemoteObject implements Client, Runnable {
 		String message = "";
 		
 		while(true) {
-			System.out.print(/*"Digite sua mensagem, "+*/name+": \n");
+			System.out.print(name+": \n");
 			message = scanner.nextLine();
 			
 			try {
